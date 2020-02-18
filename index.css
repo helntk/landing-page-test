@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:400,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.layout-container .section-1 {
+  height: 90vh;
+}
+.layout-container .section-2 {
+  height: 93vh;
+  background-color: #f7f7f7;
+}
+.layout-container .section-3 {
+  height: 90vh;
+  background-image: url("../../../img/bloco_services.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+.layout-container .section-4 {
+  height: 70vh;
+}
+.layout-container .section-5 {
+  height: 70vh;
+}
+
+.container {
+  margin: 0 10rem;
+}
+
+/*
+
+font-family: 'Muli', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+weight: 700;
+*/
+html {
+  font-family: "Muli", sans-serif;
+}
+
+p {
+  color: #9e9baf;
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #1d164d;
+}
+
+.sub-title {
+  padding: 3.5rem 0 1.5rem 0;
+  font-size: 2.5rem;
+}
+
+.logo {
+  color: #badc58;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-container {
+  display: grid;
+  height: 50vh;
+  margin-top: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 2rem;
+}
+.card-container .card {
+  display: flex;
+  width: 40rem;
+  border-radius: 5px;
+  background-color: white;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card-container .card__img {
+  width: 50%;
+  height: 100%;
+}
+.card-container .card__title {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  display: flex;
+  height: 9rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-container .card__title a {
+  background-color: #badc58;
+  padding: 1rem 1.5rem;
+  width: 10rem;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0;
+}
+
+.section-1 {
+  background-image: url("../../../img/Illustration.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 65%;
+}
+
+.header .nav__logo {
+  position: relative;
+  top: 2rem;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 35vw;
+  font-size: 1.2rem;
+  position: relative;
+  left: 60%;
+  color: white;
+  font-weight: bold;
+}
+.header .nav__item--register > a {
+  color: #badc58;
+  background-color: white;
+  padding: 1rem 1.7rem;
+  border-radius: 5px;
+}
+
+.headline {
+  margin-top: 15rem;
+  font-weight: bold;
+  color: #1d164d;
+  text-align: left;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+.headline h1 {
+  font-size: 4rem;
+}
+.headline__search {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30.5rem;
+}
+.headline__search > input {
+  width: 25rem;
+  height: 4rem;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #1d164d;
+}
+.headline__search > input::placeholder {
+  color: #c0c2c4;
+  padding: 1rem;
+}
+
+.search-button {
+  background-color: #badc58;
+  margin-right: 0.5rem;
+  padding: 1.4rem;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0;
+}
+
+.service-container {
+  padding-left: 55rem;
+  padding-top: 10rem;
+}
+.service-container p {
+  width: 30rem;
+}
+
+.card-1 {
+  width: 25rem;
+  height: 30rem;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card-1__img {
+  width: 100%;
+}
+.card-1__title {
+  font-size: 1.2rem;
+  margin: 2rem 0 0 2rem;
+  height: 9rem;
+}
+.card-1__title a {
+  background-color: #badc58;
+  padding: 1rem 1.5rem;
+  width: 10rem;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0;
+}
+
+.posts {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 5rem;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=index.css.map */

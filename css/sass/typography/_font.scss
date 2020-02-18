@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:400,700&display=swap');
+
+/*
+
+font-family: 'Muli', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+weight: 700;
+*/
+
+html{
+    font-family: 'Muli', sans-serif;
+
+}
+p{
+ color:  #9e9baf;
+ font-size: 1.3rem;
+ line-height: 1.7;
+ 
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: $secondary-color;
+
+}
+.sub-title{
+    padding: 3.5rem 0 1.5rem 0 ;
+    font-size: 2.5rem;
+}
+.logo{
+ color: $primary-color;
+ font-weight: bold;
+ font-family: 'Montserrat', sans-serif;
+}

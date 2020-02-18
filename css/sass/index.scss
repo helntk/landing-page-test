@@ -1,0 +1,20 @@
+//base
+@import './base/base';
+
+//layout
+@import './layout/layout-container.scss';
+//utilities
+
+@import './utilities/container';
+@import './utilities/colors';
+
+//typography
+@import './typography/font';
+
+
+//components
+@import './components/card';
+@import './components/header';
+@import './components/services';
+@import './components/post';
+@import './components/final'

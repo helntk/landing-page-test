@@ -1,0 +1,77 @@
+.membership{
+    margin-top: 15rem;
+    font-weight: bold;
+    color: $secondary-color;
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    h2{
+     font-size: 2.3rem;
+
+    }
+    &__text{
+        padding: 0rem 0 2rem 4rem;
+
+    }
+    &__search{
+        width: 37rem;
+        padding-left: 4rem;
+        display: flex;
+    }
+    &__search>input{
+     width: 25rem;
+     height: 4rem;
+     border-width: 1px;
+     border-radius: 5px;
+     border-color: $secondary-color; 
+
+     &::placeholder{
+       color: #c0c2c4;
+       padding: 1rem;
+     }
+
+     
+
+   }
+}
+.search-button-membership{
+    background-color: $primary-color;
+    padding: 1rem 2.5rem;
+    margin-left: 1rem;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0;
+   }
+
+   footer{
+       display: flex;
+
+
+   }
+   .copyright{
+    color: $secondary-color;
+   }
+
+   .footer__text{
+       display: flex;
+       justify-content: space-between;
+       margin-left: auto;
+       p{
+         margin-right: 2rem;  
+       }
+   }
+
+   @media screen and (max-width: 800px){
+    .section-5{ 
+        padding: 10rem 0 18rem 0;
+        height: auto;
+        background-image: none !important;
+     
+     }
+     .membership{
+       margin-top: 0;
+       display: flex;
+       justify-content: center;
+     }
+    
+  }
